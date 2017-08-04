@@ -1,0 +1,17 @@
+Zaimplementuj podaną na zajęciach klasę, zawierającą:
+ *  zadane atrybuty
+ *  konstruktor bezparametrowy
+ *  konstruktor z parametrami (część z wartością domyślną)
+ *  zadany zestaw metod dostępowych/modyfikujących obiekty klasy
+ *  metodę wypisz, wypisującą atrybuty obiektu na konsolę
+ *  zadany atrybut i metodę statyczną
+ 
+ Stwórz w funkcji main kilka obiektów tej klasy i przetestuj wszystkie zaimplementowane konstruktory oraz metody.
+ 
+ Dodaj do klasy metody zapisz(ostream& os)/wczytaj(istream& is), zapisujące/odczytujące zawartość obiektu do przekazanego
+ jako parametr strumienia wyjściowego/wejściowego,w podanym na zajęciach formacie. Metoda wczytująca może założyć, że format 
+ danych będzie poprawny.
+ 
+ Uwaga: wszystkie atrybuty powinny być prywatne, konstruktory i metody - publiczne, metody większe niż 1-linijkowe powinny
+ być zadeklarowane w klasie, zdefiniowane poza klasą.
+ 
