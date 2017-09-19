@@ -1,0 +1,25 @@
+Klasy z dynamiczną zawartością, wyjątki
+
+Zaimplementuj podane na zajęciach dwie klasy (jedną prostą, drugą zawierającą dynamicznie alokowaną tablicę obiektów 
+klasy pierwszej o rozmiarze zadanym w konstruktorze), zawierające:
+  zadane atrybuty (dla klasy z tablicą należy przechowywać wskaźnik do tablicy, jej rozmiar i licznik elementów w tablicy),
+  odpowiednie konstruktory, inicjujące atrybuty (z wartościami domyślnymi),
+  operatory wypisywania do strumienia,
+  
+ Uzupełnij drugą klasę o następujące elementy:
+  konstruktor kopiujący,
+  destruktor,
+  operator podstawienia,
+  metodę zwracającą liczbę elementów w tablicy,
+  metodę dodającą obiekt do tablicy (bez realokowania tablicy),
+  operator tablicowy umożliwiający pobranie/zmianę wybranego obiektu,
+  
+Wszelkie sytuacje krytyczne (brak miejsca w tablicy, błędne indeksy) powinny być zgłaszane poprzez wyjątki.
+Deklaracje klasy powinny znaleźć się w odpowiednim pliku nagłówkowym, definicje metod i konstruktorów - w pliku źródłowym.
+Obiekty typów klasowych powinny być przekazywane do funkcji/metod przez referencje (zwykłe lub stałe), metody 
+niemodyfikujące zawartości klasy powinny być oznaczane jako const.
+Stwórz w funkcji main kilka obiektów tej klasy i przetestuj wszystkie zaimplementowane konstruktory, operatory
+oraz metody, łącznie z przechwyceniem ewentualnie zgłoszonego wyjątku.
+
+Uwaga: wszystkie atrybuty powinny być prywatne, konstruktory i metody - publiczne, metody/konstruktory/destruktory
+większe niż 1-linijkowe powinny być zadeklarowane w klasie, zdefiniowane poza klasą.
