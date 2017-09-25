@@ -1,0 +1,24 @@
+Dziedziczenie i hierarchie klas
+
+Zaimplementuj hierarchię klas zadaną na zajęciach.
+  zadane atrybuty i metody,
+  odpowiednie konstruktory (pusty konstruktor domyślny nie powinien być dostępny) inicjujące atrybuty (bez wartości domyślnych)
+  z użyciem listy inicjalizującej,
+
+Należy wykorzystać metody wirtualne i czysto wirtualne we właściwych miejscach (pamiętając o wirtualnym destruktorze tam, gdzie
+jest to potrzebne).
+
+Dla każdej klasy stwórz odpowiedni plik źródłowy i nagłówkowy.
+
+Wszystkie klasy powinny być umieszczone we wspólnej przestrzeni nazw.
+
+Przygotuj plik makefile dla kompilacji całego projektu.
+
+Stwórz w funkcji main tablicę wskaźników do obiektów klas oraz wstawione do niej dynamicznie zaalokowane obiekty, testując 
+wszystkie zaimplementowane konstruktory i metody,.
+
+Uwaga:
+  wszystkie atrybuty powinny być prywatne lub chronione, konstruktory i metody - publiczne,
+  metody/konstruktory/destruktory większe niż 1-linijkowe powinny być zadeklarowane w klasie, zdefiniowane poza klasą,
+  obiekty typów klasowych powinny być przekazywane do funkcji/metod przez referencje (zwykłe lub stałe), metody niemodyfikujące
+  zawartości klasy powinny być oznaczane jako const.
